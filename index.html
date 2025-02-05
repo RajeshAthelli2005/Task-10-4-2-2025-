@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>My Food Webpage</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: content-box;
+        }
+
+        .a1 {
+            font-size: 25px;
+            padding-left: 0%;
+            text-align: center;
+            padding-top: 4%;
+            cursor: pointer;
+        }
+
+        .a1:hover {
+            background: #000;
+            color: white;
+        }
+
+        .nav {
+            display: grid;
+            grid-template-columns: 8% 8% 8%;
+            justify-content: space-around;
+            align-items: center;
+            height: 10vh;
+            gap: 110px;
+            position: sticky;
+            top: 0%;
+            width: 100%;
+            background: white;
+        }
+
+        .container1 {
+            padding-bottom: 20px;
+            margin-top: 10px;
+            display: grid;
+            grid-template-columns: 250px 250px 250px 250px;
+            justify-content: space-evenly;
+            margin-right: 50px;
+
+        }
+
+        .numbers {
+            display: grid;
+            grid-template-columns: 2% 2% 2% 2% 2% 2%;
+            justify-content: center;
+            height: 6vh;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            align-items: center;
+            position: sticky;
+        }
+
+        .n1:hover {
+            background: rgb(12, 12, 12);
+            font-size: 20px;
+            padding-top: 20%;
+            height: 4vh;
+            text-align: center;
+            color: white;
+        }
+
+        .n2 {
+            background-color: black;
+            font-size: 20px;
+            padding-top: 20%;
+            height: 4vh;
+            text-align: center;
+            color: white;
+        }
+
+        .n2:hover {
+            background: grey;
+            font-size: 20px;
+            padding-top: 20%;
+            height: 4vh;
+            text-align: center;
+            color: white;
+        }
+
+        .n3:hover {
+            background: rgb(12, 12, 12);
+            font-size: 20px;
+            padding-top: 20%;
+            height: 4vh;
+            text-align: center;
+            color: white;
+        }
+
+        .n4:hover {
+            background: rgb(12, 12, 12);
+            font-size: 20px;
+            padding-top: 20%;
+            height: 4vh;
+            text-align: center;
+            color: white;
+        }
+
+        .n5:hover {
+            background: rgb(12, 12, 12);
+            font-size: 20px;
+            padding-top: 20%;
+            height: 4vh;
+            text-align: center;
+            color: white;
+        }
+
+        .n6:hover {
+            background: rgb(12, 12, 12);
+            font-size: 20px;
+            padding-top: 20%;
+            height: 4vh;
+            text-align: center;
+            color: white;
+        }
+
+
+        img {
+            width: 300px;
+            height: 370px;
+
+
+        }
+
+        #chef {
+            width: 1000px;
+            height: 500px;
+
+        }
+
+        #real {
+
+            text-align: center;
+        }
+
+        #f1,
+        #f2,
+        #f3,
+        #f4,
+        #f5,
+        #f6,
+        #f7,
+        #f8 {
+            padding-left: 50px;
+            text-align: center;
+        }
+
+        #para {
+
+            padding-right: 250px;
+            padding-left: 250px;
+        }
+        #i1{
+            width: 50px;
+            height: 50px;
+        }
+        .iteam1,.iteam2{
+            padding: 10px;
+            
+            width: 400px;
+            height: 100px;
+        }
+        .iteam1:hover,.iteam2:hover{
+            border: none;
+            background-color: lightgray;
+        }
+        /* .ending{
+            display: grid;
+            grid-template-columns: auto auto auto;
+        } */
+        
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <!-- <h1 style="text-align: center;">My Food</h1><br> -->
+        <div class="nav">
+            <div class="a1"><i class="bi bi-list-task"></i></div>
+            <div class="a1">My Food</div>
+            <div class="a1">Mail</div>
+        </div>
+
+
+
+        <div class="container1">
+            <div id="img1">
+                <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="">
+                <div id="f1">
+                    <h3>The Perfect Sandwich, A Real NYC Classic</h3>
+                    <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                </div>
+            </div>
+            <div id="img2">
+                <img src="https://www.w3schools.com/w3images/steak.jpg" alt="">
+                <div id="f2">
+                    <h3>Let Me Tell You About This Steak</h3>
+                    <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum
+                        lipsum.</p>
+                </div>
+            </div>
+            <div id="img3">
+                <img src="https://www.w3schools.com/w3images/cherries.jpg" alt="">
+                <div id="f3">
+                    <h3>Cherries, interrupted</h3>
+                    <p>Lorem ipsum text praesent tincidunt ipsum lipsum.
+
+                        What else?</p>
+                </div>
+            </div>
+            <div id="img4">
+                <img src="https://www.w3schools.com/w3images/wine.jpg" alt="">
+                <div id="f4">
+                    <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
+                    <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                </div><br>
+            </div>
+            <div id="img5">
+                <img src="https://www.w3schools.com/w3images/popsicle.jpg" alt="">
+                <div id="f5">
+                    <h3>All I Need Is a Popsicle</h3>
+                    <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                </div>
+
+            </div>
+            <div id="img6">
+                <img src="https://www.w3schools.com/w3images/salmon.jpg" alt="">
+                <div id="f6">
+                    <h3>Salmon For Your Skin</h3>
+                    <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum
+                        lipsum</p>
+                </div>
+            </div>
+            <div id="img7">
+                <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="">
+                <div id="f7">
+                    <h3>The Perfect Sandwich, A Real Classic</h3>
+                    <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                </div>
+            </div>
+            <div id="img8">
+                <img src="https://www.w3schools.com/w3images/croissant.jpg" alt="">
+                <div id="f8">
+                    <h3>Le French</h3>
+                    <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                </div>
+            </div>
+        </div>
+        <div class="numbers">
+            <div class="n1"><i class="bi bi-chevron-double-left"></i></div>
+            <div class="n2">1</div>
+            <div class="n3">2</div>
+            <div class="n4">3</div>
+            <div class="n5">4</div>
+            <div class="n6"><i class="bi bi-chevron-double-right"></i></div>
+        </div>
+
+        <div class="end">
+            <h2 style="text-align: center;">About Me, The Food Man</h2> <br>
+            <center><img src="chef.jpg" alt="" id="chef"></center> &nbsp;
+            <h2 style="text-align: center;">I am Who I Am!</h2>   &nbsp;
+            <p id="real"><i>With Passion For Real, Good Food</i></p> &nbsp;
+            <p id="para">Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an
+                interest of lorem
+                ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut
+                rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
+                congue
+                gravida diam non fringilla.</p><br>
+
+        </div> <br> <br><br>
+
+</div>
+<!-- 
+        <div class="ending">
+            
+            <div class="end1">
+
+                <h4>FOOTER</h4>
+                <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
+                    congue gravida diam non fringilla.</p>
+
+             <h5>Rajesh Athelli</h5></div>
+             <div class="end2">
+                <h4>BLOG POSTS</h4>
+                <div class="iteam1">
+                    <div class="post1">
+                            <img src="https://www.w3schools.com/w3images/workshop.jpg" alt="" id="i1">
+                    </div>
+                          <div class="pp">
+                            <p id="p1">Lorem</p>
+                            <p id="p2">Sed mattis nunc</p>
+                          </div>
+                        </div>
+                </div><br>
+                 <div class="iteam2">
+                        <div class="post2">
+                    <img src="https://www.w3schools.com/w3images/gondol.jpg" alt="" id="i1">
+                  </div>
+                  <div class="p3">Ipsum</div>
+                  <div class="p4">Praes tinci sed</div><br><br>
+                  </div>
+      <div class="iteam3">
+        <p>POPULAR TAGS</p>
+                  <div class="r1">Travel</div>
+                  <div class="r2">New York</div>
+                  <div class="r3">Dinner</div>
+                  <div class="r4">Salmon</div>
+                  <div class="r5">France </div>
+                  <div class="r6">Drinks </div>
+                  <div class="r7">Ideas</div>
+                  <div class="r8">Flavors</div>
+                  <div class="r9">Cuisine</div>
+                  <div class="r10">Chicken</div>
+                  <div class="r11">Dressing</div>
+                  <div class="r12">Fried</div>
+                  <div class="r13">Fish</div>
+                  <div class="r14">Duck</div>
+                  
+        </div>
+
+                
+
+            
+
+
+
+
+
+            
+
+        
+    </div> -->
+</body>
+
+</html>
