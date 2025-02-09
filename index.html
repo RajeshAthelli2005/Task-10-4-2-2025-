@@ -12,6 +12,9 @@
             padding: 0;
             box-sizing: content-box;
         }
+        .container{
+            font-family: 'Courier New', Courier, monospace;
+        }
 
         .a1 {
             font-size: 25px;
@@ -46,6 +49,11 @@
             grid-template-columns: 250px 250px 250px 250px;
             justify-content: space-evenly;
             margin-right: 50px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            justify-content: center;
 
         }
 
@@ -173,17 +181,43 @@
             border: none;
             background-color: lightgray;
         }
-        /* .ending{
-            display: grid;
-            grid-template-columns: auto auto auto;
-        } */
+
+            #f1,
+        #f2,
+        #f3,
+        #f4,
+        #f5,
+        #f6,
+        #f7,
+        #f8 {
         
+            text-align:start;
+            text-indent: none;
+        }
+        img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+        @media screen and (min-width: 576px) and (max-width: 768px) {
+            .container1 {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
+            }
+        }
+               
+        /* Ensure images scale properly */
+
+
 
         
     </style>
 </head>
 
 <body>
+    <div class="container">
+
     <div class="main">
         <!-- <h1 style="text-align: center;">My Food</h1><br> -->
         <div class="nav">
@@ -281,8 +315,8 @@
 
         </div> <br> <br><br>
 
-</div>
-<!-- 
+<!-- </div>
+
         <div class="ending">
             
             <div class="end1">
@@ -328,7 +362,7 @@
                   <div class="r13">Fish</div>
                   <div class="r14">Duck</div>
                   
-        </div>
+        </div> -->
 
                 
 
@@ -341,7 +375,8 @@
             
 
         
-    </div> -->
+    </div>
+</div>
 </body>
 
 </html>
